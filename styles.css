@@ -1,0 +1,220 @@
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(images/background.jpg);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .filter-white {
+    filter: brightness(0) invert(1);
+  }
+
+.banner{
+    width:100%; 
+    margin-top: 7%;
+    z-index: 3;
+}
+
+.hero-text{
+  text-align: left; 
+  width: 70%;
+}
+
+.chrome-margin{
+  margin-right: 60px;
+}
+
+.opera-margin{
+  margin-left:60px;
+}
+
+.icon{
+  width: 100px; 
+}
+
+.browser-text{
+  color: white; 
+}
+
+.browser-text-middle{
+  color: white; 
+  text-align:center; 
+}
+
+.split {
+    height: 100%;
+    width:25%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 420px;
+  }
+
+  .split2 {
+    height: 100%;
+    width:16.67%;
+    position:fixed;
+    z-index: 2;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 420px;
+  }
+  
+  
+  .left {
+    left: 0;
+    background-color: #EBBA4A;
+    opacity: 77%;
+  }
+
+  .middle-one {
+    left: 25%;
+    background-color: #E8A03E;
+    opacity: 77%;
+  }
+  
+  .middle-two {
+    left: 41.67%;
+    background-color: #5AC6FA;
+    opacity: 77%;
+  }
+
+  .middle-three {
+    left: 58.34%;
+    background-color: #459CE3;
+    opacity: 77%;
+  }
+  
+  .right {
+    right: 0;
+    background-color: #E3634D;
+    opacity: 77%;
+  }
+
+  .download-icon{
+    display: none;
+  }
+
+
+
+  
+
+@media (max-width: 576px) { }
+
+
+@media (max-width: 768px) { 
+  .banner{
+    width:100%;
+    height: 320px; 
+    margin-top: 0;
+    z-index: 3;
+  }
+
+  .hero-text{
+    text-align: left; 
+    width: 100%;
+  }
+
+  .icon{
+    width: 100px; 
+    height: 70px;
+    float: left;
+  }
+
+  .split {
+    margin-top: 320px;
+    padding-top: 10px;
+    height: 105px;
+    width:100%;
+  }
+
+  .split2 {
+    padding-top: 10px;
+    height: 105px;
+    width:100%;
+  }
+  
+  
+  .left {
+    background-color: #EBBA4A;
+    opacity: 77%;
+  }
+
+  .middle-one {
+    margin-top: 425px;
+    left: 0;
+    background-color: #E8A03E;
+    opacity: 77%;
+  }
+
+  .middle-two {
+    margin-top: 530px;
+    left: 0;
+    background-color: #5AC6FA;
+    opacity: 77%;
+  }
+
+  .middle-three {
+    margin-top: 635px;
+    left: 0;
+    background-color: #459CE3;
+    opacity: 77%;
+  }
+
+  .right {
+    margin-top: 740px;
+    left: 0;
+    background-color: #E3634D;
+    opacity: 77%;
+  }
+
+  .browser-text{
+    color: white; 
+    text-align:left; 
+  }
+
+  .download{
+    display: none;
+  }
+
+  .download-icon{
+    display: block;
+    width: 60px; 
+    height: 35px;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    z-index: 100;
+  }
+
+  .chrome-margin{
+    margin-right: 0px;
+  }
+
+  .opera-margin{
+    margin-left:0px;
+  }
+
+ }
+
+
+@media (max-width: 992px) {  }
+
+
+@media (max-width: 1200px) {  }
+
+
+@media (max-width: 1400px) {  }
+  
